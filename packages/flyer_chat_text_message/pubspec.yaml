@@ -12,7 +12,11 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  flutter_chat_core: ^0.0.9
+  flutter_chat_core: 
+    git:
+      url: https://github.com/johnstef99/flutter_chat_ui.git
+      ref: main
+      path: packages/flutter_chat_core
   gpt_markdown: ^1.0.12
   provider: ^6.1.2
 

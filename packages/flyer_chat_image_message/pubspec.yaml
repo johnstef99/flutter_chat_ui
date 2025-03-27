@@ -15,7 +15,11 @@ dependencies:
   cross_cache: ^0.0.9
   flutter:
     sdk: flutter
-  flutter_chat_core: ^0.0.9
+  flutter_chat_core: 
+    git:
+      url: https://github.com/johnstef99/flutter_chat_ui.git
+      ref: main
+      path: packages/flutter_chat_core
   image: ^4.5.2
   provider: ^6.1.2
   thumbhash: ^0.1.0+1

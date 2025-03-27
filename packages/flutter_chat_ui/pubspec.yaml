@@ -15,7 +15,11 @@ dependencies:
   diffutil_dart: ^4.0.1
   flutter:
     sdk: flutter
-  flutter_chat_core: ^0.0.9
+  flutter_chat_core: 
+    git:
+      url: https://github.com/johnstef99/flutter_chat_ui.git
+      ref: main
+      path: packages/flutter_chat_core
   provider: ^6.1.2
   scrollview_observer: ^1.25.1
 
